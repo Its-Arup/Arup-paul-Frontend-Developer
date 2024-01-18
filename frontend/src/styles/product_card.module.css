@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Kanit', sans-serif; */
+
+.container {
+  display: flex;
+  padding: 8px 8px 56px 8px;
+  width: 314px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  backdrop-filter: blur(13px);
+  border: 3px solid #f9d326;
+  background: #141411;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+}
+.container div h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.388px;
+}
+.container div p {
+  color: #cfcfcf;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.imageContainer {
+  transition: transform 0.3s ease;
+}
+.container:hover .imageContainer {
+  transform: translateY(-45%) rotate(-30deg);
+}
+.image {
+  max-width: 100%;
+}
+.productStarTop,
+.productStarBottom {
+  position: absolute;
+  transition: transform 0.3s ease; /* Adding a smooth transition effect */
+  opacity: 0;
+}
+.productStarTop {
+  top: 0;
+  left: 0%;
+  /* transform: translateX(-50%) translateY(-100%); */  
+}
+.productStarBottom {
+  bottom: 0;
+  right: 0;
+  /* transform: translateX(100%) translateY(100%); */
+}
+
+.container:hover .productStarTop{
+  transform: translateX(-50%) translateY(-60%);
+  opacity: 1;
+}
+.container:hover .productStarBottom{
+  transform: translateX(50%) translateY(60%) scale(1.2);
+  opacity: 1;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Kanit', sans-serif; */
+
+.container {
+  position: relative;
+}
+.container h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 107.143% */
+}
+.container h3 span {
+  color: #fecc00;
+  font-family: "Kanit", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+}
+.container > img {
+  /* position: absolute;
+    top: 50%;
+    left: 50.5%; */
+  display: block;
+  margin: auto;
+  padding-left: 13%;
+}
+.container p {
+  margin-top: 24px;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 169.432%; /* 33.886px */
+}
+.products {
+  display: flex;
+  margin: 60px auto;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.products_second {
+  display: flex;
+  margin: 60px auto;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}

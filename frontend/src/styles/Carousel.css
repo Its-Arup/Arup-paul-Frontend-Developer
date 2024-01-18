@@ -1,0 +1,24 @@
+.draggable-carousel {
+    overflow: hidden;
+    position: relative;
+    width: 70%; /* Adjust the width as needed */
+    margin: auto;
+    cursor: grab;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1); /* Adjust duration and cubic-bezier as needed */
+  }
+  
+  .carousel-item {
+    flex: 0 0 calc(100% / 2.5);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: grab;
+  }
+  
+  .carousel-item:active {
+    cursor: grabbing;
+  }

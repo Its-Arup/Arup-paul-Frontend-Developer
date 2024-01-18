@@ -56,6 +56,7 @@ const DIV = styled.div`
   position: fixed;
   left: 5%;
   top: 5%;
+  z-index: 100;
 
   .ham {
     width: 100%;
