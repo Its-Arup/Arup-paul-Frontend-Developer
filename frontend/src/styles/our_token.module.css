@@ -41,11 +41,11 @@ font-family: 'Kanit', sans-serif; */
   line-height: 169.432%; /* 33.886px */
 }
 .token_product {
-  margin: 60px auto 0;
-  width: 60%;
+  margin: 60px auto ;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
+  justify-items: center;
 }
 .token_button_parent {
   margin: 60px auto;
