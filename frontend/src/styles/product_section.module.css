@@ -76,3 +76,9 @@ font-family: 'Kanit', sans-serif; */
   width: 366px;
   animation: cubeAnimation 3s infinite; 
 }
+
+@media (min-width: 1366px){
+  .products{
+    width: 80%;
+  }
+}
