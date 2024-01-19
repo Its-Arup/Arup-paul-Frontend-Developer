@@ -4,6 +4,9 @@ const getCoin = async (req, res) => {
     try {
       let { page } = req.query;
       page = page || 1;
+      if(page > 10 ){
+        page = 1;
+      }
       const limit = 6;
       const skip_Page = (page - 1) * limit;
   

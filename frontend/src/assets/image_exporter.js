@@ -13,6 +13,7 @@ import RoadMapLine from "../assets/roadmap_line.png";
 import Quote_mark from "../assets/Quote_mark.png";
 import PhaseBack from "../assets/phase_back.png";
 import PhaseFront from "../assets/phase_front.png";
+import OurTokenLine from "../assets/our_token_line.png";
 
 export {
   LOGO,
@@ -29,5 +30,6 @@ export {
   RoadMapLine,
   Quote_mark,
   PhaseBack,
-  PhaseFront
+  PhaseFront,
+  OurTokenLine
 };
