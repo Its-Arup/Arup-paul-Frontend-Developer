@@ -119,3 +119,17 @@ font-family: 'Kanit', sans-serif; */
   height: 487px;
   animation: cubeAnimation 3s infinite; 
 }
+
+
+@media (min-width: 1366px) {
+  .hero_parent {
+    margin-top: 150px;
+  }
+  .buttom_parent{
+    margin-bottom: 80px;
+  }
+}
+
+
+
+

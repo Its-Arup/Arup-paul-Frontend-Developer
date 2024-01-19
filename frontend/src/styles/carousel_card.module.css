@@ -113,3 +113,9 @@ font-family: 'Kanit', sans-serif; */
   z-index: 2;
   transform: translateX(-50%) translateY(-30%);
 }
+
+@media (min-width: 1366px) {
+  .buttom_parent{
+    margin: 0 20px;
+  }
+}
