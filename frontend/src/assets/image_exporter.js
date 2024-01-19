@@ -9,6 +9,10 @@ import BitaLend from "../assets/bita_lend.png";
 import BitaPad from "../assets/bita_pad.png";
 import ProductStarTop from "../assets/product_star_top.png";
 import ProductStarButtom from "../assets/product_star_buttom.png";
+import RoadMapLine from "../assets/roadmap_line.png";
+import Quote_mark from "../assets/Quote_mark.png";
+import PhaseBack from "../assets/phase_back.png";
+import PhaseFront from "../assets/phase_front.png";
 
 export {
   LOGO,
@@ -21,5 +25,9 @@ export {
   BitaLend,
   BitaPad,
   ProductStarTop,
-  ProductStarButtom
+  ProductStarButtom,
+  RoadMapLine,
+  Quote_mark,
+  PhaseBack,
+  PhaseFront
 };

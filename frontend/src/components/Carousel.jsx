@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
 import '../styles/Carousel.css'; // Import your CSS file
+import CarouselCard from './CarouselCard';
 
-const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7'];
+const items = [<CarouselCard number={"01"} quater={"Q4 2023"} phase={"Phase.1"}/>, <CarouselCard number={"02"} quater={"Q1 2024"} phase={"Phase.2"}/>, <CarouselCard number={"03"} quater={"Q2 2024"} phase={"Phase.3"}/>, <CarouselCard number={"04"} quater={"Q3 2024"} phase={"Phase.4"}/>,];
 
 const Carousel = () => {
   const [isDragging, setIsDragging] = useState(false);
@@ -44,7 +45,7 @@ const Carousel = () => {
           transform: `translateX(${translateX}px)`,
           transition: isDragging
             ? 'none'
-            : 'transform 0.5s cubic-bezier(0.42, 0, 0.58, 1)', // Adjust duration and cubic-bezier as needed
+            : 'transform 0.5s cubic-bezier(0.42, 0, 0.58, 1)', 
         }}
       >
         {items.map((item, index) => (

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Kanit', sans-serif; */
+
+.container {
+  width: 100%;
+  background-color: #fecc00;
+  position: relative;
+  height: 600px;
+}
+.heading_parent {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  position: relative;
+}
+.heading_parent h5 {
+  color: #000;
+  font-feature-settings: "liga" off;
+  font-family: "Kanit", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.heading_parent img {
+  position: absolute;
+  left: 5%;
+  bottom: -15%;
+}
+.Quote_mark {
+    position: absolute;
+    right: 0;
+    top: 15%;
+}

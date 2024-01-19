@@ -1,7 +1,7 @@
 .draggable-carousel {
     overflow: hidden;
     position: relative;
-    width: 70%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     margin: auto;
     cursor: grab;
   }
@@ -14,9 +14,11 @@
   .carousel-item {
     flex: 0 0 calc(100% / 2.5);
     box-sizing: border-box;
-    padding: 10px;
-    border: 1px solid #ccc;
+    /* padding: 20px; */
+    /* gap: 20px; */
     cursor: grab;
+    margin-top: 55px;
+    /* position: absolute;  */
   }
   
   .carousel-item:active {

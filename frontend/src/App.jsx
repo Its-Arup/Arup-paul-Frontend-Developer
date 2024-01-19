@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import HeroSection from "./components/HeroSection";
 import ProductSection from "./components/ProductSection";
-import Carousel from "./components/Carousel";
+import Rodemap from "./components/Rodemap";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <ProductSection />
-      <Carousel/>
+      <Rodemap/>
     </DIV>
   );
 }
