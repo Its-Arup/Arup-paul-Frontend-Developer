@@ -1,6 +1,8 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import '../styles/Carousel.css'; // Import your CSS file
 import CarouselCard from './CarouselCard';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const items = [<CarouselCard number={"01"} quater={"Q4 2023"} phase={"Phase.1"}/>, <CarouselCard number={"02"} quater={"Q1 2024"} phase={"Phase.2"}/>, <CarouselCard number={"03"} quater={"Q2 2024"} phase={"Phase.3"}/>, <CarouselCard number={"04"} quater={"Q3 2024"} phase={"Phase.4"}/>,];
 
@@ -29,6 +31,9 @@ const Carousel = () => {
     const targetX = targetIndex * itemWidth;
     setTranslateX(targetX);
   };
+  useEffect(() => {
+    AOS.init({ duration: 1500 }); 
+  }, []);
 
   return (
     <div
@@ -49,7 +54,7 @@ const Carousel = () => {
         }}
       >
         {items.map((item, index) => (
-          <div key={index} className="carousel-item">
+          <div key={index} className="carousel-item" data-aos="fade-left">
             {item}
           </div>
         ))}
