@@ -1,6 +1,7 @@
 const express  = require('express');
 const cors = require('cors');
 const serverConnection = require('./db');
+const coinRouter = require('./routes/coin.route');
 require('dotenv').config()
 const app = express();
 
@@ -15,6 +16,7 @@ app.get("/", (req, res) => {
     }
 })
 
+app.use("/coin", coinRouter);
 
 
 const PORT = process.env.PORT || 8080
