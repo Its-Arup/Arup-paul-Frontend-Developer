@@ -6,9 +6,8 @@ import {
   BitaLend,
   BitaPad,
   CartIamge,
+  ProductCube,
   ProductHeadingLine,
-  ProductStarButtom,
-  ProductStarTop,
 } from "../assets/image_exporter";
 import ProductCard from "./ProductCard";
 
@@ -18,7 +17,7 @@ function ProductSection() {
       <h3>
         Our <span>Products</span>
       </h3>
-      <img src={ProductHeadingLine} alt="line" />
+      <img src={ProductHeadingLine} alt="line" className={style.line}/>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et Pellentesque
         habitant morbi.
@@ -32,7 +31,7 @@ function ProductSection() {
         <ProductCard image={BitaPad} heading={"Bitapad"} />
         <ProductCard image={BitaLend} heading={"BitaLend"} />
       </div>
-      
+      <img src={ProductCube} alt="cube" className={style.product_cube}/>
     </div>
   );
 }

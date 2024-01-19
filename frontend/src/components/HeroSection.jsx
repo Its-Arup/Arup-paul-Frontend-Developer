@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../styles/hero_section_styles.module.css";
-import { BitcoinHome } from "../assets/image_exporter";
+import { BitcoinHome, HeroCube, HomeStar, ProductSymbol } from "../assets/image_exporter";
 function HeroSection() {
   return (
     <div className={style.container}>
@@ -13,6 +13,10 @@ function HeroSection() {
             <span className={style.bitcoin}>BITCION</span>
           </h1>
           <img src={BitcoinHome} alt="home" className={style.bitcoin_home} />
+          <img src={HomeStar} alt="homeStar" className={style.home_star}/>
+        </div>
+        <div className={style.cube}>
+          <img src={HeroCube} alt="cube" />
         </div>
       </div>
       <div className={style.buttom_parent}>
@@ -23,6 +27,7 @@ function HeroSection() {
         </p>
         <button>Get Strted &gt;</button>
       </div>
+      <img src={ProductSymbol} alt="symbol" className={style.product_symbol}/>
     </div>
   );
 }

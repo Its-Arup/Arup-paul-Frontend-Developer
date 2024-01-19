@@ -18,6 +18,10 @@ import FooterLogo from "../assets/footer_logo.png";
 import SocialOne from "../assets/social_1.png"
 import SocialTwo from "../assets/social_2.png"
 import SocialThree from "../assets/social_3.png"
+import HeroCube  from "../assets/hero_cube.png"
+import HomeStar from "../assets/home_star.png"
+import ProductSymbol from "../assets/product_symbol.png"
+import ProductCube from "../assets/product_cube.png"
 
 export {
   LOGO,
@@ -39,5 +43,9 @@ export {
   FooterLogo,
   SocialOne,
   SocialTwo,
-  SocialThree
+  SocialThree,
+  HeroCube,
+  HomeStar,
+  ProductSymbol,
+  ProductCube
 };
