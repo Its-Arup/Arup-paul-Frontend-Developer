@@ -43,7 +43,7 @@ function OurToken() {
       <div className={style.token_product}>
         {coin?.map((ele)=>{
           return (
-            <Tokencard key={ele.id} {...ele}/>
+            <Tokencard key = {ele._id} {...ele}/>
           )
         })}
       </div>

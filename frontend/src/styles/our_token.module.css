@@ -3,7 +3,9 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Kanit', sans-serif; */
 .container {
-  margin-top: 320px;
+  /* margin-top: 320px;
+  margin-bottom: 80px; */
+  margin: 320px auto;
 }
 .token_heading_parent {
   text-align: center;

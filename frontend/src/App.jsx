@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import ProductSection from "./components/ProductSection";
 import Rodemap from "./components/Rodemap";
 import OurToken from "./components/OurToken";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ProductSection />
       <Rodemap/>
       <OurToken/>
+      <Footer/> 
     </DIV>
   );
 }
@@ -21,5 +23,4 @@ function App() {
 export default App;
 const DIV = styled.div`
   background-color: #0e0e0e;
-  height: 500vh;
 `;

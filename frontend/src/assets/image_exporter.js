@@ -14,6 +14,10 @@ import Quote_mark from "../assets/Quote_mark.png";
 import PhaseBack from "../assets/phase_back.png";
 import PhaseFront from "../assets/phase_front.png";
 import OurTokenLine from "../assets/our_token_line.png";
+import FooterLogo from "../assets/footer_logo.png";
+import SocialOne from "../assets/social_1.png"
+import SocialTwo from "../assets/social_2.png"
+import SocialThree from "../assets/social_3.png"
 
 export {
   LOGO,
@@ -31,5 +35,9 @@ export {
   Quote_mark,
   PhaseBack,
   PhaseFront,
-  OurTokenLine
+  OurTokenLine,
+  FooterLogo,
+  SocialOne,
+  SocialTwo,
+  SocialThree
 };
