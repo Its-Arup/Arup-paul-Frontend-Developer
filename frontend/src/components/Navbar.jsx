@@ -155,11 +155,12 @@ const DIV = styled.div`
       top: 88px;
       gap: 40px;
       flex-direction: column;
-      background: rgba(92, 79, 5, 0.44);
+      background: rgba(92, 79, 5, 0.9);
       width: 100%;
       text-align: center;
       transition: 0.3s;
       z-index: 99;
+      border-radius: 20px;
     }
     .nav-links a {
       font-size: 24px;
@@ -181,6 +182,8 @@ const DIV = styled.div`
     }
   }
 
-  @media (max-width: 580px) {
+  @media (max-width: 440px) { 
+    left: 4%;
+    top: 3%;
   }
 `;

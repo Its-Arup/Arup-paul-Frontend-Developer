@@ -69,16 +69,39 @@ font-family: 'Kanit', sans-serif; */
   gap: 48px;
 }
 
-.product_cube{
+.product_cube {
   position: absolute;
   bottom: 0;
   left: 0%;
   width: 366px;
-  animation: cubeAnimation 3s infinite; 
+  animation: cubeAnimation 3s infinite;
 }
 
-@media (min-width: 1366px){
-  .products{
+@media (min-width: 1366px) {
+  .products {
     width: 80%;
+  }
+}
+
+@media (max-width: 440px) {
+  .container h3 {
+    font-size: 45px;
+  }
+  .container h3 span {
+    font-size: 45px;
+  }
+  .container p {
+    margin-top: 16px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .products_second {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product_cube {
+    width: 166px;
   }
 }

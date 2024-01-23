@@ -69,5 +69,6 @@ function App() {
 
 export default App;
 const DIV = styled.div`
+  width: 100%;
   background-color: #0e0e0e;
 `;
