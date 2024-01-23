@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useWeb3Modal } from '@web3modal/wagmi1/react'
+
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { LOGO } from "../assets/image_exporter";
@@ -9,6 +11,8 @@ function Navbar() {
   const handelMenu = () => {
     setmenu((prev) => !prev);
   };
+
+  const { open } = useWeb3Modal()
 
   return (
     <DIV>
@@ -38,7 +42,7 @@ function Navbar() {
               <Link to="#">Roadmap</Link>
             </li>
             <li className="nav-links" onClick={handelMenu}>
-              <button className="nav-button">Connect Wallet</button>
+              <button className="nav-button" onClick={() => open()}>Connect Wallet</button>
             </li>
           </ul>
         </nav>
@@ -113,7 +117,7 @@ const DIV = styled.div`
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #fff;    
+    background-color: #fff;
     margin: 5px 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
